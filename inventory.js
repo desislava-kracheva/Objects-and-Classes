@@ -11,10 +11,7 @@ let heroesObj = {
 level,
 items
 }
-
-
 heroes.push(heroesObj);
-
 
 }
 heroes.sort((a,b) => a.level - b.level)
