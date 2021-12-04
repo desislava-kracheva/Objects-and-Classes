@@ -1,3 +1,4 @@
+// Judge - 20/100 - не е решена правилно.
 function solveSecondTime (stock, ordered){
 
         let obj ={};
