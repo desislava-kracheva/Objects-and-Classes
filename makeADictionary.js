@@ -7,7 +7,7 @@ function solveSecondTime(input){
         dict = Object.assign(dict, obj);        
     } 
         
-    let sortedKeys = Object.keys(dict);
+    let sortedKeys = Object .keys(dict);
     sortedKeys.sort((a, b) => a.localeCompare(b));   
      
     for (let term of sortedKeys) {
